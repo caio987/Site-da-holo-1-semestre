@@ -1,0 +1,59 @@
+body{
+    background:#d2cde0;
+}
+.bloco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:1288px;
+    padding: 20px 100px;
+    background: rgb(14, 134, 194);
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    z-index: 100S;
+}
+.holo {
+    display: flex;
+    margin-right: 880px;
+    color: #77f8f6;
+}
+.logo {
+    display: flex;
+    height: 80px;
+    display: block;
+}
+.voltar{
+    margin-top: 30px;
+    position: absolute;
+    height: 50px;
+}
+.gens{
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(45, 54, 154);
+    border: 10px;
+    box-shadow: 0 0 10px;
+    width: 170px;
+}
+.footer{
+    display: flex;
+    margin-left: 10px;
+}
+.imgs{
+    display: flex;
+    height: 200px;
+    margin-left: 20px;
+    scale: 100%;
+    overflow: hidden;
+
+}
+.img1,
+.img2{
+    margin-left: 100px;
+}
+.nome1,
+.nome2{
+    color: rgb(76, 25, 76);
+}
